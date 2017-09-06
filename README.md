@@ -1,8 +1,10 @@
 # Using Local History
 
-This section describes how to use Local History, which is your personal real-time version control system. Local History is independent of external version control systems and works with the directories of your project even when they are not under any VCS control.
+**Local history** is a feature built into PyCharm that allows you to chronologically view changes to a file, diff changes to files as you're working on them, and revert changes, all without using a version control system.
 
-Local history is cleared when you install a new version of PyCharm or when you invalidate caches. Therefore, check in the changes to your version control system before performing these operations.
+You can think of local history as your own personal version control system (VCS) inside of PyCharm. Local history doesn't depend on any external VCS like Subversion, Mercurial, or Git. This means local history will work with files that aren't being tracked by your VCS and doesn't require commits to a repository.
+
+Local history will persist until you install a new version of PyCharm or [invalidate PyCharm's caches](https://www.jetbrains.com/help/pycharm/cleaning-system-cache.html). If you need to keep track of the changes you've made, be sure you commit your files and changes to your VCS before updating PyCharm or clearing caches.
 
 ## Viewing Local History of Source Code
 
