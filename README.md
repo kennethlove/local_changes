@@ -65,11 +65,9 @@ If you find yourself needing to revert to a labelled version of your code, the p
 2. Look for the label you want to roll back to.
 3. In the context menu for the label, choose **Revert**.
 
-## Viewing Recent Changes
+## Viewing Changes Across Recent Projects
 
-### Basics
-
-PyCharm allows you to view the summary of recent changes to all recent projects, the PyCharm configuration directory, etc. From the Recent Changes pop-up, you can browse through the history of changes, navigate to a particular change, compare versions, and revert changes if necessary
+While it's not part of the Local History feature, PyCharm also allows you to view the summary of recent changes to all recent projects, the PyCharm configuration directory, and more. From the Recent Changes pop-up, you can browse through the history of changes, navigate to and inspect a particular change, compare versions, and revert changes if necessary.
 
 ### Viewing recent changes
 
