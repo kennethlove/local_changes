@@ -59,7 +59,11 @@ Labels don't just apply to a single file or directory, though; they apply to the
 
 ### Reverting a project to a label
 
+If you find yourself needing to revert to a labelled version of your code, the process is identical to reverting to any other version.
 
+1. Open the Local History view through either the **VCS | Local History** menu item or the context menu in the Project explorer.
+2. Look for the label you want to roll back to.
+3. In the context menu for the label, choose **Revert**.
 
 ## Viewing Recent Changes
 
