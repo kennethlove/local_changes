@@ -12,10 +12,10 @@ You'll find all of the commands for Local History under the main **VCS** menu it
 
 Local History can show you changes made to a certain file or to a whole directory. Each entry in the Local History dialog box is displayed with its time stamp, action, and an optional label. The Local History for a file includes all changes that affect both the selected file and the whole project. Local History for a directory shows changes to the source code tree in general. You can explore changes, selecting the respective row in the Local History dialog box.
 
-To view Local History for a file or directory
+To view Local History for a file or directory:
 
 1. Select a directory or file in the Project tool window, or open a file in the editor.
-2. Do one of the following:
+2. Then, do one of the following:
     * On the main **VCS** menu, or on the context menu of the selection, choose **Local History | Show History**.
     * Press `Alt+Back Quote`, and choose the desired command from the VCS Operations quick list.
     * Use **View | Recent Changes** which shows a summary of recent changes in a single pop-up list. Clicking an entry in this list will show the associated Local History entry.
@@ -24,28 +24,24 @@ To view Local History for a file or directory
 
 ## Viewing Local History of Source Code
 
-### Basics
+You don't always need to see changes for an entire file or directory. In these cases, Local History can show you just the history for a particular fragment of code.
 
-Besides file history, you can track local changes for a selected block of source code. his history shows only those changes that affect the code fragment.
+To view local history of a source code block:
 
-### Viewing local history of a source code block
-
-To view local history of a source code block
-
-1. In the editor, select a fragment of source code.
-2. Do one of the following:
-    * On the main VCS menu, or on the context menu of the selection, choose **Local History | Show History for Selection**.
+1. In the editor, select the fragment of source code you want to inspect.
+2. Then, do one of the following:
+    * On the main **VCS** menu, or on the context menu of the selection, choose **Local History | Show History for Selection**.
     * Press `Alt+Back Quote`, and choose the desired command from the VCS Operations quick list.
 
 ## Restoring a File from Local History
 
-Rolling back changes from the local history works same way as in the regular version control.
+If you find that you need to completely restore a file back to a previous version, Local History will allow you to do that. Rolling back changes from Local History works same way as in most version control systems.
 
-To roll back changes in the local history
+To roll back changes in the local history:
 
-1. Open the Local History view.
+1. Open the Local History view through either the **VCS | Local History** menu item or the context menu in the Project explorer.
 2. Select the version you want to roll back to.
-3. On the context menu of the selection, choose Revert.
+3. In the context menu for your selected version, choose **Revert**.
 
 ## Putting Labels
 
