@@ -8,11 +8,11 @@ You can think of Local History as your own personal version control system (VCS)
 
 You'll find all of the commands for Local History under the main **VCS** menu item.
 
-## Viewing Local History of a File or Directory
+## Local History of a File or Directory
 
 Local History can show you changes made to a certain file or to a whole directory. Each entry in the Local History dialog box is displayed with its time stamp, action, and an optional label. The Local History for a file includes all changes that affect both the selected file and the whole project. Local History for a directory shows changes to the source code tree in general. You can explore changes, selecting the respective row in the Local History dialog box.
 
-To view Local History for a file or directory:
+### Viewing Local History for a file or directory:
 
 1. Select a directory or file in the Project tool window, or open a file in the editor.
 2. Then, do one of the following:
@@ -22,11 +22,11 @@ To view Local History for a file or directory:
 3. Use the Local History view to compare local versions and accept or revert changes.
     ![Local history view to compare, accept, and/or reject local changes](images/lvcViewHistoryDiff.png)
 
-## Viewing Local History of Source Code
+## Local History of Source Code
 
 You don't always need to see changes for an entire file or directory. In these cases, Local History can show you just the history for a particular fragment of code.
 
-To view local history of a source code block:
+### Viewing Local History of a source code block:
 
 1. In the editor, select the fragment of source code you want to inspect.
 2. Then, do one of the following:
@@ -37,29 +37,29 @@ To view local history of a source code block:
 
 If you find that you need to completely restore a file back to a previous version, Local History will allow you to do that. Rolling back changes from Local History works same way as in most version control systems.
 
-To roll back changes in the local history:
+### Rolling back changes to a file:
 
 1. Open the Local History view through either the **VCS | Local History** menu item or the context menu in the Project explorer.
 2. Select the version you want to roll back to.
 3. In the context menu for your selected version, choose **Revert**.
 
-## Putting Labels
+## Local History Labels
 
-### Introduction
+If you're familiar with Git's `tag` concept, this next feature will feel comfortable to you. Before you undertake a major overhaul of your code, it can be a really good idea to mark the current version as "stable". Local History provides a feature known as **labels** that allow you to mark the current state of your code with a meaningful tag. Then, if you need to, you can roll your code back to a particular label.
 
-Before embarking on a risky change to your source code, it is a good idea to mark the stable version with some meaningful label. This will help you quickly roll back to a safe version.
+Labels don't just apply to a single file or directory, though; they apply to the entire project.
 
-Labels apply to a whole project.
+### Adding a label to your project
 
-### Adding a label to a local version
-
-To add a label to a local version
-
-1. Select a file or folder in the Project tool window, or open a file in the editor.
-2. Do one of the following:
-3. On the main VCS menu, or on the context menu of the selection, choose **Local History | Put Label**.
-4. Press `Alt+Back Quote` and choose **Put Label** command from the VCS Operations quick list.
+1. Select a file or directory in the Project tool window, or open a file in the editor.
+2. Then, do one of the following:
+    * On the main **VCS** menu, or in the context menu of the selection, choose **Local History | Put Label**.
+    * Press `Alt+Back Quote` and choose **Put Label** command from the VCS Operations quick list.
 5. In the Put Label dialog box, type the label name.
+
+### Reverting a project to a label
+
+
 
 ## Viewing Recent Changes
 
