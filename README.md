@@ -1,10 +1,26 @@
 # Using Local History
 
-**Local history** is a feature built into PyCharm that allows you to chronologically view changes to a file, diff changes to files as you're working on them, and revert changes, all without using a version control system.
+**Local History** is a feature built into PyCharm that allows you to chronologically view changes to a file or directory, diff changes to files as you're working on them, and revert changes, all without using a version control system.
 
-You can think of local history as your own personal version control system (VCS) inside of PyCharm. Local history doesn't depend on any external VCS like Subversion, Mercurial, or Git. This means local history will work with files that aren't being tracked by your VCS and doesn't require commits to a repository.
+You can think of Local History as your own personal version control system (VCS) inside of PyCharm. Local History doesn't depend on any external VCS like Subversion, Mercurial, or Git. This means Local History will work with files that aren't being tracked by your VCS and doesn't require commits to a repository.
 
-Local history will persist until you install a new version of PyCharm or [invalidate PyCharm's caches](https://www.jetbrains.com/help/pycharm/cleaning-system-cache.html). If you need to keep track of the changes you've made, be sure you commit your files and changes to your VCS before updating PyCharm or clearing caches.
+Local History will persist until you install a new version of PyCharm or [invalidate PyCharm's caches](https://www.jetbrains.com/help/pycharm/cleaning-system-cache.html). If you need to keep track of the changes you've made, be sure you commit your files and changes to your VCS before updating PyCharm or clearing caches.
+
+## Viewing Local History of a File or Folder
+
+Local History makes it possible to view changes made to a certain file or a whole directory. Each entry in the Local History dialog box is displayed with its time stamp, action and optional label. So doing, the local history for a file includes all changes that affect both the selected file and the whole project; local history for a folder shows changes to the source code tree in general. You can explore changes, selecting the respective row in the Local History dialog box.
+
+### Viewing local history
+
+To view local history
+
+1. Select a folder or file in the Project tool window, or open a file in the editor.
+2. Do one of the following:
+    * On the main VCS menu, or on the context menu of the selection, choose **Local History | Show History**.
+    * Press `Alt+Back Quote`, and choose the desired command from the VCS Operations quick list.
+    * Use [View Recent Changes]() that shows a summary of recent changes in a single pop-up list. Clicking an entry in this list shows the respective Local History.
+3. Use the Local History view to compare local versions and revert changes.
+    ![Local history view to compare, accept, and/or reject local changes](images/lvcViewHistoryDiff.png)
 
 ## Viewing Local History of Source Code
 
@@ -21,23 +37,7 @@ To view local history of a source code block
     * On the main VCS menu, or on the context menu of the selection, choose **Local History | Show History for Selection**.
     * Press `Alt+Back Quote`, and choose the desired command from the VCS Operations quick list.
 
-## Viewing Local History of a File or Folder
 
-### Basics
-
-Local History makes it possible to view changes made to a certain file or a whole directory. Each entry in the Local History dialog box is displayed with its time stamp, action and optional label. So doing, the local history for a file includes all changes that affect both the selected file and the whole project; local history for a folder shows changes to the source code tree in general. You can explore changes, selecting the respective row in the Local History dialog box.
-
-### Viewing local history
-
-To view local history
-
-1. Select a folder or file in the Project tool window, or open a file in the editor.
-2. Do one of the following:
-    * On the main VCS menu, or on the context menu of the selection, choose **Local History | Show History**.
-    * Press `Alt+Back Quote`, and choose the desired command from the VCS Operations quick list.
-    * Use [View Recent Changes]() that shows a summary of recent changes in a single pop-up list. Clicking an entry in this list shows the respective Local History.
-3. Use the Local History view to compare local versions and revert changes.
-    ![Local history view to compare, accept, and/or reject local changes](images/lvcViewHistoryDiff.png)
 
 ## Viewing Recent Changes
 
